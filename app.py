@@ -4,7 +4,7 @@ import pickle
 
 # load the model
 
-loaded_model=pickle.load(open('Lasso.pkl', 'rb'))
+loaded_model = pickle.load(open('Lasso.pkl', 'rb'))
 
 # read data from a file
 
