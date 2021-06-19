@@ -1,0 +1,22 @@
+Steps In Building the project:
+   
+   1. Data Collection From multiple Sources
+      * collect the data from en.tutiempo.net
+      * store The html pages in the data directory
+   2. Preprocess the Data
+      
+      * Find the average pm value for each day the aqi csv
+      * Use Beautiful soup to extract data from the Html files collected
+       * create a new csv file for each year
+       * Combine the csv files
+   
+    3. Build the Linear regression model ->Linear-regression.ipynb
+        Train-score:54
+        Test-score:48
+       
+     4. Build a Ridge and Lasso-regression model
+         Train-scores:54
+         Test-scores:48
+         
+      5.Build the Decision tree Regressor model
+      
